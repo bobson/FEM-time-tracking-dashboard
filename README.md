@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./time-tracking-dashboard–des.png)
-![](./time-tracking-dashboard–des.png)
+![](./time-tracking-dashboard–tab.png)
 ![](./time-tracking-dashboard–mob.png)
 
 ## My process
