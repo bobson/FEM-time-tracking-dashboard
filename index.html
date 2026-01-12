@@ -43,9 +43,31 @@
         </div>
 
         <div class="header-card__tabs" role="tablist">
-          <button role="tab" aria-selected="true" tabindex="0">Daily</button>
-          <button role="tab" aria-selected="false" tabindex="-1">Weekly</button>
-          <button role="tab" aria-selected="false" tabindex="-1">
+          <button
+            id="tab-daily"
+            role="tab"
+            aria-selected="true"
+            aria-controls="panel-daily"
+            tabindex="0"
+          >
+            Daily
+          </button>
+          <button
+            id="tab-weekly"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-weekly"
+            tabindex="-1"
+          >
+            Weekly
+          </button>
+          <button
+            id="tab-monthly"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-monthly"
+            tabindex="-1"
+          >
             Monthly
           </button>
         </div>
