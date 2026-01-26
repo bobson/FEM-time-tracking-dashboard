@@ -7,7 +7,6 @@ export default class ProfileCard extends HTMLElement {
     const tp = document.getElementById("profile-card-template");
     const content = tp.content.cloneNode(true);
     this.appendChild(content);
-    this.classList.add("header-card");
 
     const nav = this.querySelectorAll(".header-card__tabs button");
     nav.forEach((btn) => {
